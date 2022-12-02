@@ -60,7 +60,7 @@ This repository includes a classifier located in the `classifier/` directory, wh
 In particular, the formula used is
 
 $$
-\argmax_{y \in \text{subcats}} f(\text{word}) P(\text{word} | y)
+\arg \max_{y \in \text{subcats}} f(\text{word}) P(\text{word} | y)
 $$
 
 where the factor f is given as the 4th power of the [normalized hhi](https://en.wikipedia.org/wiki/Herfindahl–Hirschman_index#Formula) of the counts of the word in all 20 categories.
